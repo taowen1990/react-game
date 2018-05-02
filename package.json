@@ -1,0 +1,28 @@
+{
+  "name": "game-of-life",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "standard"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^5.0.0",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "standard": "^11.0.0"
+  },
+  "standard": {
+    "globals": [
+      "fetch"
+    ]
+  }
+}
